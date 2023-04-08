@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@layer{
+  .buttons{
+    @apply
+    hover:bg-slate-700 cursor-pointer hover:text-white duration-150 bg-slate-300
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
